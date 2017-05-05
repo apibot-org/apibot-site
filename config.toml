@@ -1,4 +1,4 @@
-baseURL = "./"
+baseURL = "https://ceduquey.github.io/Apibot/"
 languageCode = "en-us"
 title = "Kube for Hugo"
 theme = "kube"
