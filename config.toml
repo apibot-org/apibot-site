@@ -1,8 +1,8 @@
 baseURL = "https://ceduquey.github.io/Apibot/"
 languageCode = "en-us"
-title = "Kube for Hugo"
+title = "Apibot"
 theme = "kube"
-description = "Kube is a professional  and a responsive Hugo theme for developers and designers that offers a documentation section mixed with a landing page and a blog"
+description = "Apibot is a tool that allows you to do API integration test"
 Paginate = 4
 [params]
   RSSLink = "/index.xml"
@@ -14,42 +14,42 @@ Paginate = 4
   # About section
   [params.about]
     enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    title = "How it works"
+    subtitle = "Surprisingly easy"
+    endpoint = "Be part<br>of our<br>[story!](#contact)"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = ""
+      title = "Create your scenario"
+      description = "Open the Apibot app and create a new project by selecting **New Graph** from the menu bar. Give it a name and a description"
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = ""
+      title = "Add nodes to your graph"
+      description = "By using our drag and drop GUI it is easy, and efficient to create the workflow of your test"
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = ""
+      title = "Complete the inputs"
+      description = "For each node an input regarding your test must be complete so you have a successfull test execution"
 
     [[params.about.events]]
       img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = ""
+      title = "Execute"
+      description = "Click **Run** at the menu bar. <br> See the result of your execution on the execution tab, by selection **Executions** on the menu bar"
 
   # Contact section
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "Send us a message so we could get in touch and you could use our wonderful app"
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
