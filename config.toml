@@ -37,7 +37,7 @@ Paginate = 4
       img = "3.jpg"
       date = ""
       title = "Complete the inputs"
-      description = "For each node an input regarding your test must be complete so you have a successfull test execution"
+      description = "For each node data might be needed so you have a successfull test execution"
 
     [[params.about.events]]
       img = "4.jpg"
