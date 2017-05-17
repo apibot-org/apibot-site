@@ -8,4 +8,4 @@ bref="The configuration node is where the property of the graph is added, for la
 toc = true
 +++
 
-{{<figure src="img/docs/configuration-node.png">}}
+{{<figure src="/img/docs/configuration-node.png">}}

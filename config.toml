@@ -4,6 +4,8 @@ title = "Apibot"
 theme = "kube"
 description = "Apibot is a tool that allows you to do API integration test"
 Paginate = 4
+canonifyURLs = true
+
 [params]
   RSSLink = "/index.xml"
   author = "newpixcom" # add your company name
