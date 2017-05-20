@@ -9,7 +9,7 @@ toc = true
 +++
 
 ### Introduction ###
-The configuration node is useful to create scope variables that could be call later on the scenario or when the config node is called. This node, has 1 visible parameter which is the **name** label to assign a name for the node. It has the option to add new parameter which are the properties, for this you select the node and click on **Add new propoerty** on the right pane, where you will be able to add new property (scope variables).
+The configuration node is useful to create scope variables that could be call later on the scenario or when the config node is called. This node, has 1 visible parameter which is the **name** label to assign a name for the node. It has the option to add new parameters which are the properties, for this you select the node and click on **Add new property** on the right pane, where you will be able to add a new property (scope variables).
 
 On the image below we are adding three properties and we will show you how they are use later. We will be using the example of twitter authentication for applications. The three properties are:
 
