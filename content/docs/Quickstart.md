@@ -93,6 +93,10 @@ We will be using the endpoint to ask for a user timeline. Consequently, you shou
 *   URL: $(url)/1.1/statuses/user_timeline.json?count=100&screen_name=twitterapi
 *   Method: GET
 
+And add a new header:
+
+* authorization: $(token), using the previous variable created on the Extract Body node.
+
 Now you should be able to execute the API Requests
 
 {{<figure src="/img/docs/get-user-timeline.png" caption="User Timeline">}} 
