@@ -10,7 +10,7 @@ toc = true
 
 For this guide, it is necessary to have a Twitter developer account, for more information, please check Twitter developer documentation. 
 
-### 1. Getting the Bearer Token from Twitter ###
+### Getting the Bearer Token from Twitter ###
 We will be applying Twitter documentation regarding [Application-only Authentication](https://dev.twitter.com/oauth/application-only). 
 
 First, we will create a new scenario (graph) by pressing the button **new graph** on the menu bar top of the screen.  If you would like, add a title and a description of your scenario. We should leave the executable box as uncheck, because the scenario is still incomplete. 
@@ -81,7 +81,7 @@ Therefore, we will add a **Extract Body node**, with the following parameters:
 Now we could execute the scenario and see the results. The graph must be executable (remember from *new graph* description). You could do this by pressing on the editor and on the right pane check executable. 
 {{<figure src="/img/docs/results-bearer-token-oauth2.png" caption="Results Token">}} 
 
-### 2. Authenticate API Requests with the Bearer Token ###
+### Authenticate API Requests with the Bearer Token ###
 Now we will show you one of the functionalities that make Apibot unique and best in its class.
 
 Create a new graph, go to the left pane and select the previous graph (we called it *Twitter Bearer Token*) click on add, it will show up on our new graph screen 
