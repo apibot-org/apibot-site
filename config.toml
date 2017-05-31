@@ -5,6 +5,7 @@ theme = "kube"
 description = "Apibot is a tool that allows you to do API integration test"
 Paginate = 4
 canonifyURLs = true
+googleAnalytics = "UA-100119885-1"
 
 [params]
   RSSLink = "/index.xml"

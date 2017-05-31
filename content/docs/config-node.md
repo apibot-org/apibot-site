@@ -7,6 +7,9 @@ weight = 20
 bref="The configuration node is where the property of the graph is added, for later use"
 toc = true
 +++
+## Definition ##
+
+## Tutorial ##
 
 ### Introduction ###
 The configuration node is useful to create scope variables that could be call later on the scenario or when the config node is called. This node, has 1 visible parameter which is the **name** label to assign a name for the node. It has the option to add new parameters which are the properties, for this you select the node and click on **Add new property** on the right pane, where you will be able to add a new property (scope variables).
