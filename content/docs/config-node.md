@@ -4,10 +4,45 @@ title = "Configuration Node"
 date = "2017-05-15T22:35:08+01:00"
 draft = false
 weight = 20
-bref="The configuration node is where the property of the graph is added, for later use"
+bref="The configuration node is a function that add new variables to the scope"
 toc = true
 +++
+
 ## Definition ##
+
+The configuration node represents a function that given a scope *S* and a list of properties *(n0,v0), (n1,v1), ... ,(nk,vk)* returns the scope *S* with the new properties.
+```
+f: Scope -> Scope
+```
+
+### Parameter ###
+The required parameters are the list of properties, to add to your scope, each property has two (2) values, the name of the property and the value.    
+
+Parameter | Description
+--- | ---
+scope | The scope where the new properties will be assigned to
+(n1, v1) | n1: correspond to the name of the first property. <br> v1: correspond to the value assign to n1.
+
+### Example ###
+For example, the scope *S = {"user": "Carlos" }* and the configuration node defines *age:=5* and *password := "xyz"*. A function representation is as follow
+
+```
+f = (scope) =>{
+	scope["age"] = 5;
+	scope["password"] = "xyz";
+	return scope;
+}
+```
+with the scope changing to
+
+```
+s = {
+	"user": "Carlos",
+	"age": 5,
+	"password": "xyz"
+}
+```
+
 
 ## Tutorial ##
 
