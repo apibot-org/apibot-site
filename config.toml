@@ -1,4 +1,4 @@
-baseURL = "https://apibot-org.github.io"
+baseURL = "https://apibot-org.github.io/"
 languageCode = "en-us"
 title = "Apibot"
 theme = "kube"
@@ -107,10 +107,10 @@ googleAnalytics = "UA-100119885-1"
     name = "Docs"
     weight = -100
     url = "/docs/"
-[[menu.main]]
-    name = "Blog"
-    weight = -100
-    url = "/blog/"
+#[[menu.main]]
+#    name = "Blog"
+#    weight = -100
+#    url = "/blog/"
 [[menu.main]]
     name = "Faq"
     weight = -100
