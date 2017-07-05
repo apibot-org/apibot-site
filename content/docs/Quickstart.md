@@ -28,8 +28,9 @@ Next, we will need to add the scope variables, which are, the global variables o
 After having the scope variables, is necessary to encode the consumer key and secret. We will concatenate both variables and assigned it to a new variable call **auth** on the scope. For this we will be using, the **JS Eval node**, useful to apply logic on our scenario. We insert the JS Eval node, as has been done on previous nodes, then we include a name for the node (e.g., "Set Auth"), and insert the following code on the function text area:
 
     (scope)=>{ 
-    var auth = btoa(scope.key+":"+scope.secret);
-    scope.auth = "Basic" + auth;
+	    var auth = btoa(scope.key+":"+scope.secret);
+	    scope.auth = "Basic " + auth;
+	    return scope;
     }
 
 You must connect the configuration node to the JS Eval Node, unsing an arrow. 
