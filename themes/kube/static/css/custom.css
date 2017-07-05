@@ -1,0 +1,6 @@
+#docs-main #side .is-position-fixed{
+	position: fixed !important;
+	top: 0%;
+	width: 24%;
+	left: -0%;
+}
