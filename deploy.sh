@@ -3,7 +3,7 @@
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
-hugo -t kube
+hugo -t hugo-elate-theme
 
 # Go To Public folder
 cd public

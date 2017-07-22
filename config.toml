@@ -1,6 +1,6 @@
 # Page settings
-baseurl = "www.apibot.co"
-title = "Elate theme"
+baseurl = "https://apibot-org.github.io/"
+title = "Apibot"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 googleAnalytics = "UA-100119885-1"
@@ -51,25 +51,25 @@ googleAnalytics = "UA-100119885-1"
 
   [[params.intro.item]]
     title = "Flow of Information"
-    description = "Keeps flow of information or sequence of steps chain together                                                                                                                                      "
+    description = "Keeps the flow of information or sequence of steps chain together                                                                                                                                      "
     url = "/docs/concepts/execution/"
-    button = "Get In Touch"
+    button = "Why us?"
     icon = "icon-share"
     img = "img_7.jpg"
 
   [[params.intro.item]]
     title = "GUI"
-    description = "With our GUI testing should be something easy and efficient, developing a test scenario in minutes                                                                                                 "
-    url = "/docs/concepts/execution/"
-    button = "Click Me"
-    icon = "icon-clock"
+    description = "With our GUI testing should be something easy and efficient, allowing to develop a scenario in minutes                                                                                                 "
+    url = "#fh5co-contact"
+    button = "Get in touch"
+    icon = "icon-screen-desktop"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Multiple Data Entry"
-    description = "Do you need to run your script multiple times with N different Data? Apibot with it easy to use data import, let you do that in seconds"
-    url = "#"
-    button = "Why us?"
+    title = "Data import"
+    description = "Set the scope variable value by importing the data. You could assign more than one value for each variable"
+    url = "#/docs/graphs/config/"
+    button = "See more"
     icon = "icon-table"
     img = "img_10.jpg"
 
@@ -85,7 +85,7 @@ googleAnalytics = "UA-100119885-1"
     enable = true
     title = "Powerful"
     description = "With Apibot there are things that no current tool can do, and there is more coming."
-    footertext = '** These are examples of what you could do with apibot consult our <a href="/docs/" target="_blank">documentation</a>'
+    footertext = '** These are examples of what you could do with apibot consult our <a href="/docs/" target="_blank">documentation</a>.'
 
     [[params.work.row]]
       img = "fork-join.png"
@@ -97,13 +97,13 @@ googleAnalytics = "UA-100119885-1"
       img = "graph-reuse.png"
       alt = "Image2"
       title = "Reuse"
-      subtitle = "Reuse your graphs. You will become super fast!"
+      subtitle = "On standard operations, you can use this technique to simplify your Apibot graphs"
 
     [[params.work.row]]
       img = "logic-script.png"
       alt = "Image3"
-      title = "Logic"
-      subtitle = "Apply logic to your scenarios. Having more power over your tests"
+      title = "Scriptable"
+      subtitle = "Allows you to add dynamic behavior over your tests"
 
   # Testimonials section
   [params.testimonials]
@@ -118,7 +118,7 @@ googleAnalytics = "UA-100119885-1"
       alt = "Person1"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;I like that I can run multiple scenarios in no time. After our team was able to learn the tool, it has allowed us to save a lot of time and effort on testing or APIs. It is the best tool on the market by far!&rdquo;"
+      quote = "&ldquo;I like that I can run multiple scenarios in no time. After our team learned to use the tool, it has allowed us to save a lot of time and effort on testing or APIs. It is the best tool on the market by far!&rdquo;"
       person = 'Cristian Pinilla, <span class="subtext">Project Manager,</span> <a href="http://myass.co" target="_blank">ASS</a>'
       img = "person2.jpg"
       alt = "Person2"
@@ -134,7 +134,7 @@ googleAnalytics = "UA-100119885-1"
   [params.services]
     enable = true
     title = "Services"
-    description = "Take advantage of our powerfull tool, this is only a minor idea of what we provide"
+    description = "The following is a list of some of the features that come with Apibot"
 
     [[params.services.item]]
       title = "Managed execution"
@@ -143,11 +143,11 @@ googleAnalytics = "UA-100119885-1"
 
     [[params.services.item]]
       title = "Cross platform &amp; Beautiful Interface"
-      description = "available on windows, linux and OSX"
+      description = "Available on windows, linux and OSX; you won't notice the difference"
       icon = "icon-layers2"
     [[params.services.item]]
       title = "Reports &amp; Monitoring"
-      description = "Email alerts and integrations alert you when your tests fail"
+      description = "Email and integrations alerts you when your tests fail"
       icon = "icon-video2"
 
       [[params.services.item]]
