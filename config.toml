@@ -6,7 +6,7 @@ theme = "hugo-elate-theme"
 googleAnalytics = "UA-100119885-1"
 
 [params]
-  
+
   custom_css = ["css/custom1.css", "css/custom2.css"]
 
   # Meta
@@ -27,7 +27,7 @@ googleAnalytics = "UA-100119885-1"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
-    
+
     # prepended links
     #[[menu.prepend]]
     #  url = "http://gohugo.io"
@@ -39,19 +39,19 @@ googleAnalytics = "UA-100119885-1"
     #  url = "http://gohugo.io"
     #  name = "External link"
     #  weight = 10
-  
+
   # Hero section
   [params.hero]
-    title = "Do API integration test in minutes!"
-    subtitle = 'If you do not want to miss out on being part of the next integration tool revolution, please <a href="#fh5co-contact" title="Contact us">reach us</a> and be part of our beta users'
- 
+    title = "Write API integration test in minutes!"
+    subtitle = "Apibot is a powerful tool for automating API integration tests, made for people that care about software quality."
+
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
   [[params.intro.item]]
-    title = "Flow of Information"
-    description = "Keeps the flow of information or sequence of steps chain together                                                                                                                                      "
+    title = "Visual"
+    description = "Apibot's UI makes it easy to visualize the information flows."
     url = "/docs/concepts/execution/"
     button = "Why us?"
     icon = "icon-share"
@@ -59,15 +59,15 @@ googleAnalytics = "UA-100119885-1"
 
   [[params.intro.item]]
     title = "GUI"
-    description = "With our GUI testing should be something easy and efficient, allowing to develop a scenario in minutes                                                                                                 "
+    description = "Our powerful and intuitive UI makes it easy to design and develop new integration tests."
     url = "#fh5co-contact"
     button = "Get in touch"
     icon = "icon-screen-desktop"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Data import"
-    description = "Set the scope variable value by importing the data. You could assign more than one value for each variable"
+    title = "Made for Teams"
+    description = "Share your work with your team-members. Software quality is a team effort."
     url = "#/docs/graphs/config/"
     button = "See more"
     icon = "icon-table"
@@ -75,7 +75,7 @@ googleAnalytics = "UA-100119885-1"
 
   [params.intro.video]
     enable = true
-    title = "Apibot Making an HTTP Request"
+    title = "Apibot: Making an HTTP Request"
     icon = "icon-play2"
     url = "https://player.vimeo.com/video/225732161"
 
@@ -84,26 +84,26 @@ googleAnalytics = "UA-100119885-1"
   [params.work]
     enable = true
     title = "Powerful"
-    description = "With Apibot there are things that no current tool can do, and there is more coming."
-    footertext = '** These are examples of what you could do with apibot consult our <a href="/docs/" target="_blank">documentation</a>.'
-
-    [[params.work.row]]
-      img = "fork-join.png"
-      alt = "Fork and Join Graph"
-      title = "Flexible"
-      subtitle = "Simple and flexible execution"
+    description = "Apibot is not just an HTTP client, its a powerful tool for making complex integration tests easy."
+    footertext = 'Looking for more? Consult our <a href="/docs/" target="_blank">documentation</a>.'
 
     [[params.work.row]]
       img = "graph-reuse.png"
       alt = "Image2"
-      title = "Reuse"
-      subtitle = "On standard operations, you can use this technique to simplify your Apibot graphs"
+      title = "Reusable"
+      subtitle = "Graphs can invoke other graphs making it easy to re-use existing work."
+
+    [[params.work.row]]
+      img = "fork-join.png"
+      alt = "Easy Concurrency"
+      title = "Concurrent"
+      subtitle = "All executions are concurrent by default. Fork-join semantics are easy to achieve with the GUI."
 
     [[params.work.row]]
       img = "logic-script.png"
       alt = "Image3"
       title = "Scriptable"
-      subtitle = "Allows you to add dynamic behavior over your tests"
+      subtitle = "Apibot is highly customizable thanks to its Javascript integration."
 
   # Testimonials section
   [params.testimonials]
@@ -122,7 +122,7 @@ googleAnalytics = "UA-100119885-1"
       person = 'Cristian Pinilla, <span class="subtext">Project Manager,</span> <a href="http://myass.co" target="_blank">ASS</a>'
       img = "person2.jpg"
       alt = "Person2"
-    
+
 
 
 
@@ -134,25 +134,26 @@ googleAnalytics = "UA-100119885-1"
   [params.services]
     enable = true
     title = "Services"
-    description = "The following is a list of some of the features that come with Apibot"
+    description = "The following is a list of features that come with Apibot"
 
     [[params.services.item]]
       title = "Managed execution"
-      description = "design your tests locally, run them periodically on our cloud"
+      description = "Design your tests locally, run them periodically on our cloud."
       icon = "icon-cloud-upload"
 
     [[params.services.item]]
-      title = "Cross platform &amp; Beautiful Interface"
-      description = "Available on windows, linux and OSX; you won't notice the difference"
+      title = "Cross platform &amp; Powerful UI"
+      description = "Available on windows, linux and OSX."
       icon = "icon-layers2"
+
     [[params.services.item]]
       title = "Reports &amp; Monitoring"
-      description = "Email and integrations alerts you when your tests fail"
+      description = "Email and integrations alert you when your tests fail."
       icon = "icon-video2"
 
-      [[params.services.item]]
+    [[params.services.item]]
       title = "Javascript &amp; Clojure"
-      description = "Apibot is easily customizable with Javascript or Clojure"      
+      description = "Apibot is easily customizable with Javascript &amp; Clojure."
       icon = "icon-speech"
 
   # About section
@@ -183,11 +184,11 @@ googleAnalytics = "UA-100119885-1"
         ["icon-linkedin", "https://twitter.com/ceduquey"],
         ["icon-facebook", "#"],
         ["icon-github", "#"]
-      ]     
+      ]
 
   # Counters section
   [params.counters]
-    enable = true
+    enable = false
     title = "Stats"
     background = "full_image_1.jpg"
 
@@ -229,7 +230,7 @@ googleAnalytics = "UA-100119885-1"
     map = true
     title = "Get in touch"
     description = "Reach out if you have any question or if you just want to say hello :)"
-    
+
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "Johan Huizingalaan 763A, 1066 VH <br> Amsterdam, Netherlands"],
