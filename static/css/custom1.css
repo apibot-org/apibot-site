@@ -1,0 +1,12 @@
+.btn-icon-osx:before {
+    content: ' ';
+    background-image: url(/images/osx-icon.svg);
+    background-repeat: no-repeat;
+    /* background-size: 22px; */
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin-right: 5px;
+    position: relative;
+    top: 3.0px;
+}
