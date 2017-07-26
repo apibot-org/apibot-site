@@ -137,14 +137,14 @@ googleAnalytics = "UA-100119885-1"
     description = "The following is a list of features that come with Apibot"
 
     [[params.services.item]]
-      title = "Managed execution"
-      description = "Design your tests locally, run them periodically on our cloud."
-      icon = "icon-cloud-upload"
-
-    [[params.services.item]]
       title = "Cross platform &amp; Powerful UI"
       description = "Available on windows, linux and OSX."
       icon = "icon-layers2"
+
+    [[params.services.item]]
+      title = "Managed execution"
+      description = "Design your tests locally, run them periodically on our cloud."
+      icon = "icon-cloud-upload"
 
     [[params.services.item]]
       title = "Reports &amp; Monitoring"
