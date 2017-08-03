@@ -50,26 +50,26 @@ googleAnalytics = "UA-100119885-1"
   [params.intro]
 
   [[params.intro.item]]
-    title = "Visual"
-    description = "Apibot's UI makes it easy to visualize the information flows."
-    url = "/docs/concepts/execution/"
-    button = "Why us?"
-    icon = "icon-share"
+    title = "Desktop App"
+    description = "Click on our download button, install Apibot and start using it. Reach us if you need help"
+    url = "https://apibot-nuts.herokuapp.com/download/osx"
+    button = "Download for MacOS"
+    icon = "arrow-down-circle"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "GUI"
-    description = "Our powerful and intuitive UI makes it easy to design and develop new integration tests."
-    url = "#fh5co-contact"
-    button = "Get in touch"
-    icon = "icon-screen-desktop"
+    title = "Visual"
+    description = "Apibot's UI makes it easy to visualize the information flows and design new integration tests"
+    url = "#/docs/"
+    button = "See more"
+    icon = "icon-share"
     img = "img_8.jpg"
 
   [[params.intro.item]]
     title = "Made for Teams"
     description = "Share your work with your team-members. Software quality is a team effort."
-    url = "#/docs/graphs/config/"
-    button = "See more"
+    url = "#fh5co-contact"
+    button = "Get in touch"
     icon = "icon-table"
     img = "img_10.jpg"
 
