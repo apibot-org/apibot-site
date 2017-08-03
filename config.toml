@@ -53,8 +53,8 @@ googleAnalytics = "UA-100119885-1"
     title = "Desktop App"
     description = "Click on our download button, install Apibot and start using it for free"
     url = "https://apibot-nuts.herokuapp.com/download/osx"
-    button = "Download for MacOS"
-    icon = "arrow-down-circle"
+    button = "Download for Free"
+    icon = "icon-arrow-down-circle"
     img = "img_7.jpg"
 
   [[params.intro.item]]
