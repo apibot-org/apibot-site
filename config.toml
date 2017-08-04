@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "https://apibot-org.github.io/"
-title = "Apibot"
+title = "Apibot | Write integration tests for your API"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 googleAnalytics = "UA-100119885-1"
