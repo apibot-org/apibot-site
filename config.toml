@@ -58,10 +58,10 @@ googleAnalytics = "UA-100119885-1"
   [params.intro]
 
   [[params.intro.item]]
-    title = "Desktop App"
-    description = "Click on our download button, install Apibot and start using it for free"
-    url = "https://apibot-nuts.herokuapp.com/download/osx"
-    button = "Download for Free"
+    title = "Powerful"
+    description = "A simple yet powerful excecution model makes it easy to model complex flows."
+    url = "https://app.apibot.co"
+    button = "Sign Up Free"
     icon = "icon-arrow-down-circle"
     img = "img_7.jpg"
 
@@ -142,7 +142,7 @@ googleAnalytics = "UA-100119885-1"
   [params.features]
     enable = true
     title = "Features"
-    description = "The following is a list of features that come with Apibot"
+    description = "Apibot is packed with all you need to automate your API."
 
     [[params.features.item]]
       title = "Cross platform &amp; Powerful UI"
@@ -150,8 +150,8 @@ googleAnalytics = "UA-100119885-1"
       icon = "icon-layers2"
 
     [[params.features.item]]
-      title = "Managed execution"
-      description = "Design your tests locally, run them periodically on our cloud."
+      title = "Cloud Execution"
+      description = "Run your tests periodically on our cloud or hook them into your continuous integration server."
       icon = "icon-cloud-upload"
 
     [[params.features.item]]

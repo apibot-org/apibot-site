@@ -11,7 +11,7 @@
         {{ partial "nav.html" .}}
 
 		{{ partial "hero.html" .}}
-		
+
         {{ partial "intro.html" .}}
 
 		{{ if .Site.Params.work.enable }}
@@ -22,7 +22,7 @@
         	{{ partial "testimonials.html" .}}
 		{{ end }}
 
-		{{ if .Site.Params.services.enable }}
+		{{ if .Site.Params.features.enable }}
         	{{ partial "services.html" .}}
 		{{ end }}
 
