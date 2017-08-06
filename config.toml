@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "https://apibot-org.github.io/"
+baseurl = "http://apibot.co"
 title = "Apibot | Write integration tests for your API"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
@@ -19,7 +19,7 @@ googleAnalytics = "UA-100119885-1"
     home = "Home"
     work = "Work"
     testimonials = "Testimonials"
-    services = "Services"
+    features = "Features"
     about = "About"
     contact = "Contact"
     docs = "Docs"
@@ -39,6 +39,14 @@ googleAnalytics = "UA-100119885-1"
     #  url = "http://gohugo.io"
     #  name = "External link"
     #  weight = 10
+    [[menu.postpend]]
+      url = "https://app.apibot.co/#login"
+      name = "Login"
+      weight = 10
+    [[menu.postpend]]
+      url = "https://app.apibot.co"
+      name = "Sign up"
+      weight = 10
 
   # Hero section
   [params.hero]
@@ -126,32 +134,32 @@ googleAnalytics = "UA-100119885-1"
 
 
 
-  # Services section
+  # features section
   # Cross platform: available on windows, linux and OSX
   # Managed execution: design your tests locally, run them periodically on our cloud.
   # Monitoring: Email alerts and integrations alert you when your tests fail.
   # Javascript Support: Apibot is easily customizable with Javascript.
-  [params.services]
+  [params.features]
     enable = true
-    title = "Services"
+    title = "Features"
     description = "The following is a list of features that come with Apibot"
 
-    [[params.services.item]]
+    [[params.features.item]]
       title = "Cross platform &amp; Powerful UI"
-      description = "Available on windows, linux and OSX."
+      description = "Apibot is built for the browser so there is no need to install or maintain any additional software."
       icon = "icon-layers2"
 
-    [[params.services.item]]
+    [[params.features.item]]
       title = "Managed execution"
       description = "Design your tests locally, run them periodically on our cloud."
       icon = "icon-cloud-upload"
 
-    [[params.services.item]]
+    [[params.features.item]]
       title = "Reports &amp; Monitoring"
       description = "Email and integrations alert you when your tests fail."
       icon = "icon-video2"
 
-    [[params.services.item]]
+    [[params.features.item]]
       title = "Javascript &amp; Clojure"
       description = "Apibot is easily customizable with Javascript &amp; Clojure."
       icon = "icon-speech"
