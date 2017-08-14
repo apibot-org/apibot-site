@@ -43,22 +43,25 @@ googleAnalytics = "UA-100119885-1"
       url = "https://app.apibot.co/#login"
       name = "Login"
       weight = 10
+      post = "external"
+
     [[menu.postpend]]
       url = "https://app.apibot.co"
       name = "Sign up"
       weight = 10
+      post = "external"
 
   # Hero section
   [params.hero]
-    title = "Write API integration test in minutes!"
-    subtitle = "Apibot is a powerful tool for automating API integration tests, made for people that care about software quality."
+    title = "Apibot"
+    subtitle = "A powerful tool for making complex integration test easy and fast"
 
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
   [[params.intro.item]]
-    title = "Powerful"
+    title = "Design"
     description = "A simple yet powerful excecution model makes it easy to model complex flows."
     url = "https://app.apibot.co"
     button = "Sign Up Free"
@@ -66,7 +69,7 @@ googleAnalytics = "UA-100119885-1"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Visual"
+    title = "Execute"
     description = "Apibot's UI makes it easy to visualize the information flows and design new integration tests"
     url = "#/docs/"
     button = "See more"
@@ -74,8 +77,8 @@ googleAnalytics = "UA-100119885-1"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Made for Teams"
-    description = "Share your work with your team-members. Software quality is a team effort."
+    title = "Report"
+    description = "Share your work with your team-members."
     url = "#fh5co-contact"
     button = "Get in touch"
     icon = "icon-table"
@@ -93,29 +96,29 @@ googleAnalytics = "UA-100119885-1"
     enable = true
     title = "Powerful"
     description = "Apibot is not just an HTTP client, its a powerful tool for making complex integration tests easy."
-    footertext = 'Looking for more? Consult our <a href="/docs/" target="_blank">documentation</a>.'
+    footertext = "Don't wait any longer <a href='https://app.apibot.co' target='_blank'>sign up now</a> for free."
 
     [[params.work.row]]
-      img = "graph-reuse.png"
-      alt = "Image2"
-      title = "Reusable"
-      subtitle = "Graphs can invoke other graphs making it easy to re-use existing work."
+      img = "codeless.png"
+      alt = "Reuse"
+      title = "Codeles automation"
+      subtitle = "A powerful UI makes it easy to automate complex scenarios."
 
     [[params.work.row]]
-      img = "fork-join.png"
-      alt = "Easy Concurrency"
-      title = "Concurrent"
-      subtitle = "All executions are concurrent by default. Fork-join semantics are easy to achieve with the GUI."
+      img = "every-case.png"
+      alt = "multiple scenarios"
+      title = "Test every possible edge case"
+      subtitle = "Apibot is built for finding bugs."
 
     [[params.work.row]]
-      img = "logic-script.png"
+      img = "reports.png"
       alt = "Image3"
-      title = "Scriptable"
-      subtitle = "Apibot is highly customizable thanks to its Javascript integration."
+      title = "Reports & Integrations"
+      subtitle = "Easily share reports with your teammates."
 
   # Testimonials section
   [params.testimonials]
-    enable = true
+    enable = false
     title = "Testimonials"
     description = "Hear stories from around the world"
 
@@ -235,7 +238,7 @@ googleAnalytics = "UA-100119885-1"
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     title = "Get in touch"
     description = "Reach out if you have any question or if you just want to say hello :)"
 

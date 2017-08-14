@@ -45,7 +45,7 @@
                     {{ end }}
 
                     {{ range .Site.Menus.postpend }}
-                        <li><a href="{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
+                        <li><a class="{{ .Post }}" href="{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
                     {{ end }}
                 </ul>
             </div>
