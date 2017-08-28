@@ -54,7 +54,7 @@ googleAnalytics = "UA-100119885-1"
   # Hero section
   [params.hero]
     title = "Apibot"
-    subtitle = "A powerful tool for making complex integration test easy and fast"
+    subtitle = "A powerful tool for making complex integration tests easy and fast"
 
   # Intro section
   # Available icons: http://simplelineicons.com/
